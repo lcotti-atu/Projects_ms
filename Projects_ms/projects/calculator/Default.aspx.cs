@@ -439,7 +439,7 @@ public partial class _Default : System.Web.UI.Page
         return exp;
     }
 
-    protected String convertToRpn(String exp)
+    protected String convertToRpn(String exp) //reverse polish notation
     {
         String rpn = "";
         Boolean negativeNumberHandler = false;
